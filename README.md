@@ -19,3 +19,5 @@ CREATE TABLE access_logs (
 
 To access the data base from server use this command: sudo mysql -u root -D nginx_logs.
 The parsed log can be displayed using this command: SELECT * FROM access_logs;
+
+In the current directory contab.txt file contains the settings from crontab(script.sh is run periodically at every minute)
